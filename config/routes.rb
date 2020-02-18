@@ -6,9 +6,9 @@ Rails.application.routes.draw do
   # read all the restaurants
   # get '/restaurants', to: 'restaurants#index'
   # # read one restaurant
+  # get '/restaurants/new', to: 'restaurants#new' # display the form
   # get '/restaurants/:id', to: 'restaurants#show'
   # # create a restaurant
-  # get '/restaurants/new', to: 'restaurants#new' # display the form
   # post '/restaurants', to: 'restaurants#create'
   # # update a restaurant
   # get '/restaurants/:id/edit', to: 'restaurants#edit'
